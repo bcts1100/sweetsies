@@ -1,3 +1,5 @@
+
+
 .topnav{
     display: flex;
     justify-content: center;
@@ -6,7 +8,45 @@
     padding: 15px;
     font-size: 24px;
     gap: 15px;
+    
 }
+.nav1{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.active{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.nav2{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.nav3{
+    display: flex; 
+    border-style: inset;
+    border-color: #fa9fb5;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+
 .section1 { 
 display: flex;
 justify-content: center;
@@ -26,13 +66,17 @@ justify-content: center;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 100px;
+    font-family: dynapuffregular;
 }
 .about{
     display: flex;
-background-color: rgba(207,181,244,255);
-height: 200px;
-box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-border-radius: 15px;
+    width: fit-content;
+    padding: 25px;
+    margin-left: 400px;
+    background-color: rgba(207,181,244,255);
+    height: 200px;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
 
 
     
@@ -56,11 +100,9 @@ border-radius: 15px;
     margin-right: 50px;
     margin-bottom: 25px;
     margin-left: 150px;
-    padding-left: 100px;
-    border-radius: 50%;
-   
+    padding-left: 100px; 
 }
-#aboutmeimage img{
+#aboutmeimg img{
     border-radius: 50%;
 }
 .spacer{
@@ -73,6 +115,9 @@ border-radius: 15px;
     display: flex;
     justify-content: center;
     align-content: center;
+    width: fit-content;
+    margin-left:500px;
+    padding: 25px;
     flex-direction: row;
     font-size: 32px;
     background-color: #fa9fb5;
@@ -128,10 +173,14 @@ border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width:950px;
+    padding: 50px;
+    margin-left: 425px;
     background-color: #fa9fb5;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
+    padding: 15px;
 }
 #meet{
     display: flex;
@@ -214,5 +263,6 @@ border-radius: 15px;
     border-radius: 50%;
 }
 body{
+    
     background-color: rgba(230,253,255,255);
 }
