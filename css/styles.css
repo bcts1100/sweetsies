@@ -42,21 +42,26 @@ border-radius: 15px;
     margin-left: 100px;
     margin-top: 65px;
     margin-bottom: 100px;
+    margin-right: 100px;
     width: fit-content;
     flex-direction: column;
     text-align: center;
     color: whitesmoke;
     font-size: 24px;
 }
-#aboutmeimage{
+#aboutmeimage{ 
     display: flex;
-    border-radius: 50%;
+    width: fit-content;
     margin-top: 25px;
     margin-right: 50px;
     margin-bottom: 25px;
-    margin-left: 100px;
+    margin-left: 150px;
     padding-left: 100px;
+    border-radius: 50%;
    
+}
+#aboutmeimage img{
+    border-radius: 50%;
 }
 .spacer{
     display: flex;
@@ -70,7 +75,7 @@ border-radius: 15px;
     align-content: center;
     flex-direction: row;
     font-size: 32px;
-    background-color: #e2b876;
+    background-color: #fa9fb5;
     height: 200px;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
@@ -84,6 +89,7 @@ border-radius: 15px;
     background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
+    padding: 1%;
     gap: 15px;
 }
 #token2{
@@ -92,6 +98,7 @@ border-radius: 15px;
     flex-wrap: wrap;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
+    padding: 1%;
     gap: 15px;
     background-color: #d2faff;
 }
@@ -101,6 +108,7 @@ border-radius: 15px;
     flex-wrap: wrap;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
+    padding: 1%;
     gap: 15px;
     background-color: #d2faff;
 }
@@ -119,8 +127,8 @@ border-radius: 15px;
 .team{
     display: flex;
     justify-content: center;
-    height: 350px;
-    background-color: #e2b876;
+    align-items: center;
+    background-color: #fa9fb5;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
@@ -128,58 +136,82 @@ border-radius: 15px;
 #meet{
     display: flex;
     height: 75px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
     font-size: 32px;
     justify-content: center;
-     background-color: #e2b876;
+     background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
     margin-bottom: 50px;
+    margin-left: 45%;
 }
 #team1{
     display: flex;
-    
     flex-direction: column;
-    background-color: #8f641f;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
+    padding: 25px;
+}
+#team1 img{
+    border-radius: 50%;
 }
 #team1image{
-    margin-left: 75px;
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
     width: 175px;
     height: auto;
 }
 #team1text{
     display: flex;
     font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+    
+}
+#teamul{
+    display: flex;
     flex-direction: column;
+    list-style-type: none;
+   justify-content: center;
+   align-items: center;
+    
 }
 #team2{
     display: flex;
-    
     flex-direction: column;
-    background-color: #8f641f;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfb5f4;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
+    padding: 25px;
 }
 #team2image{
-    margin-left: 75px;
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
-    width:175px;
+    width: 175px;
     height: auto;
     
 }
 #team2text{
     display: flex;
     font-size: 32px;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+#team2 img{
+    border-radius: 50%;
 }
 body{
     background-color: rgba(230,253,255,255);
