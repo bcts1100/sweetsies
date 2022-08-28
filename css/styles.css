@@ -40,7 +40,7 @@
 .nav3{
     display: flex; 
     border-style: inset;
-    border-color: #fa9fb5;
+    border-color: #d2faff;
     border-radius: 20px;
     background-color: #cfb5f4;
     padding: 10px;
@@ -161,12 +161,28 @@ justify-content: center;
     display: flex;
     height: 200px;
     font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #e2b876;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     gap: 15px;
+}
+.q1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2faff;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    gap: 15px;
+
+}
+#q2{
+    background-color: #cfb5f4;
+    
 }
 
 .team{
