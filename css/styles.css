@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'dynapuffregular';
+    src: url('fonts/fancy/dynapuff-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('fonts/fancydynapuff-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 .topnav{
     display: flex;
@@ -66,7 +73,7 @@ justify-content: center;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 100px;
-    font-family: dynapuffregular;
+    font-family: "dynapuffregular";
 }
 .about{
     display: flex;
@@ -279,6 +286,6 @@ justify-content: center;
     border-radius: 50%;
 }
 body{
-    background-image: linear-gradient(to bottom right, #d2faff,#fa9fb5);
+    background-image: linear-gradient(to bottom , #d2faff,#fa9fb5);
     
 }
