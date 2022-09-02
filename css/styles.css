@@ -10,9 +10,13 @@
 .topnav{
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    padding: 1%;
+    background-color: #cfb5f4;
+    border: #cfb5f4;
+    border-style: outset;
+    border-radius: 52px;
+    width: fit-content;
+    margin: auto;
+    padding: .5vh;
     font-size: 24px;
     gap: 15px;
     
@@ -61,11 +65,8 @@ justify-content: center;
 }
 #logo{
     display: flex;
-    padding: 5px;
-    border-radius: 25px;
     height: fit-content;
-    width: fit-content;
-    border: 2px inset black;
+    width: max-content;
 }
 .section2{
     display: flex;
@@ -77,16 +78,10 @@ justify-content: center;
     font-family: "dynapuffregular";
 }
 .about{
-    display: flex;
-    width: fit-content;
-    height: 20vh;
+    display: flex;  
     padding: 25px;
-    margin-left: 50vh;
     background-color: rgba(207,181,244,255);
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
-
-
+    height: 500px;
     
 }
 #aboutustext{
@@ -117,20 +112,24 @@ justify-content: center;
     margin-top: 5px;
     height: 350px;
     width: auto;
+    background-color: rgba(207,181,244,255);
+}
+.spacertwo{
+    display: flex;
+    margin-top: 5px;
+    height: 350px;
+    width: auto;
+    background-color: #fa9fb5;
 }
 .tokenomics{
     display: flex;
     justify-content: center;
     align-content: center;
-    width: fit-content;
-    margin-left:50vh;
     padding: 25px;
     flex-direction: row;
     font-size: 32px;
     background-color: #fa9fb5;
     height: 200px;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
     gap: 15px;
 
 }
@@ -196,9 +195,9 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    
     padding: 50px;
-    margin-left: 50vh;
+   
     background-color: #fa9fb5;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
@@ -210,11 +209,7 @@ justify-content: center;
     height: fit-content;
     width: fit-content;
     font-size: 3vh;
-    margin-left: 47.2vw;
     justify-content: center;
-     background-color: #d2faff;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
     margin-bottom: 3vh;
 }
 #team1{
@@ -282,7 +277,7 @@ justify-content: center;
     border-radius: 50%;
 }
 body{
-    background-image: linear-gradient(to bottom , #d2faff,#fa9fb5);
+    background-color: #d2faff;
     
 }
 
