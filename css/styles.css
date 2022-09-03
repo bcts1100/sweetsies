@@ -16,14 +16,14 @@
     width: 100vw;
     position: fixed;
 }
-.navbar .sticky {
-    position: fixed;
-    top: 0;
-  }
-  
-  .navbarOffsetMargin {
-    padding-top: 45px;
-  }
+.topnav img{
+    display: flex;
+    padding-right: 10vw;
+    float: left;
+    gap: 55px;
+    height: 6vh;
+    width: auto;
+}
 .topnav{
     display: flex;
     justify-content: center;
