@@ -82,6 +82,7 @@ justify-content: center;
     padding: 25px;
     background-color: rgba(207,181,244,255);
     height: 500px;
+    width: auto;
     
 }
 #aboutustext{
@@ -130,7 +131,7 @@ justify-content: center;
     font-size: 32px;
     background-color: #fa9fb5;
     height: 200px;
-    width: 100%;
+    width: 100vw;
     gap: 15px;
 
 }
