@@ -81,9 +81,10 @@ justify-content: center;
 }
 .about{
     display: flex;  
+    flex-basis: auto;
     padding: 25px;
     background-color: rgba(207,181,244,255);
-    height: 500px;
+    height: auto;
     width: auto;
     
 }
@@ -100,7 +101,8 @@ justify-content: center;
 }
 #aboutmeimage{ 
     display: flex;
-    width: fit-content;
+    height: 50%;
+    width: 50%;
     margin-top: 1%;
     margin-right: 3%;
     margin-bottom: 1%;
@@ -109,6 +111,8 @@ justify-content: center;
 }
 #aboutmeimg img{
     border-radius: 50%;
+    height: 50%;
+    width: 50%;
 }
 .spacer{
     display: flex;
