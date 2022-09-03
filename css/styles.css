@@ -1,3 +1,9 @@
+* { 
+     margin: 0; 
+     padding: 0;
+    }
+
+
 @font-face {
     font-family: 'dynapuffregular';
     src: url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff2'),
@@ -109,12 +115,18 @@ width: 100vw;
     background-color: rgba(207,181,244,255);
     height: auto;
     width: 100vw;
+   
+    
+    
+}
+#abouttop{
+    display: flex;
+    width: 100vw;
     
 }
 #aboutustext{
     display: flex;
     margin-left: 10%;
-    margin-top: 5%;
     margin-right: 10%;
     width: fit-content;
     flex-direction: column;
@@ -139,14 +151,14 @@ width: 100vw;
 }
 .spacer{
     display: flex;
-    margin-top: 5px;
+    
     height: 350px;
     background-color: rgba(207,181,244,255);
     width: 100vw;
 }
 .spacertwo{
     display: flex;
-    margin-top: 5px;
+    
     height: 350px;
     width: 100vw;
     background-color: #fa9fb5;
@@ -189,8 +201,6 @@ width: 100vw;
     display: flex; 
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
     padding: 1%;
     gap: 15px;
     background-color: #d2faff;
@@ -312,6 +322,8 @@ width: 100vw;
 body{
     background-color: #d2faff;
     width: 100vw;
+    margin: 0;
+    overflow: auto;
     
 }
 
