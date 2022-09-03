@@ -6,7 +6,9 @@
     font-style: normal;
 
 }
-
+.navbar{
+    width: auto;
+}
 .topnav{
     display: flex;
     justify-content: center;
