@@ -201,13 +201,17 @@ width: 100vw;
     display: flex; 
     align-items: center;
     flex-wrap: wrap;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
     padding: 1%;
     gap: 15px;
     background-color: #d2faff;
 }
-.roadmap{
+#roadmap{
     display: flex;
-    height: 200px;
+    justify-content: center;
+    flex-direction: row;
+    height: 80vh;
     width: 100vw;
     font-size: 32px;
     padding-top: 50px;
@@ -215,23 +219,35 @@ width: 100vw;
     justify-content: center;
     flex-direction: row;
     background-color: #e2b876;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
-    gap: 15px;
 }
-.q1{
+#roadmap img{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #d2faff;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
-    gap: 15px;
-
+    height: 60vh;
+    width: auto;
+    filter: blur(3px);
+  -webkit-filter: blur(8px);
+	
 }
-#q2{
-    background-color: #cfb5f4;
-    
+.roadmapbtn {
+    display: flex;
+   justify-content: center;
+   margin: auto;
+    background-color: rgb(139, 193, 255);
+    color: white;
+    font-size: 32px;
+    padding: 24px 48px;
+    border: none;
+    border-radius: 10px;
+}
+.roadmapbtn:hover {
+    background-color: black;
+  }
+#roadmap p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
 }
 
 .team{
@@ -247,13 +263,12 @@ width: 100vw;
     gap: 15px;
     padding: 15px;
 }
-#meet{
+#meet p{
     display: flex;
-    height: fit-content;
-    width: fit-content;
-    font-size: 3vh;
     justify-content: center;
-    margin-bottom: 3vh;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
 }
 #team1{
     display: flex;
