@@ -7,15 +7,25 @@
 
 }
 .navbar{
-    width: auto;
+    width: 100vw;
+    position: fixed;
 }
+.navbar .sticky {
+    position: fixed;
+    top: 0;
+  }
+  
+  .navbarOffsetMargin {
+    padding-top: 45px;
+  }
 .topnav{
     display: flex;
     justify-content: center;
+    position: relative;
     background-color: #cfb5f4;
     border: #cfb5f4;
     border-style: outset;
-    border-radius: 52px;
+    border-radius: 20px;
     width: fit-content;
     margin: auto;
     padding: .5vh;
@@ -59,16 +69,28 @@
     padding: 10px;
 
 }
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 .section1 { 
 display: flex;
 justify-content: center;
+width: 100vw;
 
 }
-#logo{
+#banner{
     display: flex;
     height: max-content;
-    width: 100%;
+    width: 100vw;
 }
 .section2{
     display: flex;
@@ -78,6 +100,7 @@ justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-family: "dynapuffregular";
+    width: 100vw;
 }
 .about{
     display: flex;  
@@ -85,7 +108,7 @@ justify-content: center;
     padding: 25px;
     background-color: rgba(207,181,244,255);
     height: auto;
-    width: auto;
+    width: 100vw;
     
 }
 #aboutustext{
@@ -118,15 +141,16 @@ justify-content: center;
     display: flex;
     margin-top: 5px;
     height: 350px;
-    width: auto;
     background-color: rgba(207,181,244,255);
+    width: 100vw;
 }
 .spacertwo{
     display: flex;
     margin-top: 5px;
     height: 350px;
-    width: auto;
+    width: 100vw;
     background-color: #fa9fb5;
+    
 }
 .tokenomics{
     display: flex;
@@ -174,6 +198,7 @@ justify-content: center;
 .roadmap{
     display: flex;
     height: 200px;
+    width: 100vw;
     font-size: 32px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -203,7 +228,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 100vw;
     padding: 50px;
    
     background-color: #fa9fb5;
@@ -286,6 +311,7 @@ justify-content: center;
 }
 body{
     background-color: #d2faff;
+    width: 100vw;
     
 }
 
