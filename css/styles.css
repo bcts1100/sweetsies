@@ -307,6 +307,7 @@ width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100vw;
     padding: 50px;
    
@@ -330,14 +331,15 @@ width: 100vw;
 }
 #team1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
-    gap: 15px;
-    padding: 25px;
+    width: 20vw;
+    gap: 1px;
+    
 }
 #team1 img{
     border-radius: 50%;
@@ -347,49 +349,136 @@ width: 100vw;
     flex-direction: column;
     width: 175px;
     height: auto;
+    padding-right: 2%;
 }
 #team1text{
     display: flex;
-    font-size: 32px;
+    font-size: 24px;
     justify-content: center;
     align-items: center;
-    margin-left: -50px;
+    padding-right: 1%;
     
 }
 #teamul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    word-wrap: none;
    justify-content: center;
    align-items: center;
+   padding: 5%;
     
 }
 #team2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #cfb5f4;
+    background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
-    gap: 15px;
-    padding: 25px;
+    width: 20vw;
 }
 #team2image{
     display: flex;
     flex-direction: column;
     width: 175px;
     height: auto;
+    padding-right: 2%;
     
 }
 #team2text{
     display: flex;
-    font-size: 32px;
+    font-size: 24px;
     justify-content: center;
     align-items: center;
-    margin-left: -50px;
+    padding-right: 1%;
 }
 #team2 img{
+    border-radius: 50%;
+}
+#team3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2faff;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    width: 20vw;
+}
+#team3image{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: auto;
+    padding-right: 2%;
+    
+}
+#team3text{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+}
+#team3 img{
+    border-radius: 50%;
+}
+#team4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2faff;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    width: 20vw;
+}
+#team4image{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: auto;
+    padding-right: 2%;
+    
+}
+#team4text{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+}
+#team4 img{
+    border-radius: 50%;
+}
+#team5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2faff;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    width: 20vw;
+}
+#team5image{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: auto;
+    padding-right: 2%;
+    
+}
+#team5text{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+}
+#team5 img{
     border-radius: 50%;
 }
 body{
