@@ -23,7 +23,7 @@
 }
 #navbarcollapse{
     height: 50px;
-    
+
 }
 .navbarOffsetMargin {
         padding-top: 45px;
@@ -498,6 +498,11 @@ body{
     margin: 0;
     overflow: auto;
     
+}
+.footer{
+    height: 50vh;
+    width: 100vw;
+    background-color: #8a81cc;
 }
 
 
