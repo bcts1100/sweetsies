@@ -101,16 +101,23 @@ width: 100vw;
     display: flex;  
     flex-basis: auto;
     padding: 25px;
-    background-color: rgba(207,181,244,255);
-    height: auto;
+    background-color: #c5c5ff;
+    height: 50vh;
     width: 100vw;
    
     
     
 }
+#abouttop1{
+    display: flex;
+    width: 100vw;
+    margin-top: -4%;
+    
+}
 #abouttop{
     display: flex;
     width: 100vw;
+   
     
 }
 #aboutustext{
@@ -142,14 +149,14 @@ width: 100vw;
 .spacer{
     display: flex;
     
-    height: 350px;
-    background-color: rgba(207,181,244,255);
+    height: 10vh;
+    background-color: #d2faff;
     width: 100vw;
 }
 .spacertwo{
     display: flex;
     
-    height: 350px;
+    height: 15vh;
     width: 100vw;
     background-color: #fa9fb5;
     
