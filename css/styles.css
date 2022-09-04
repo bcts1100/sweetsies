@@ -182,14 +182,14 @@ width: 100vw;
     background-color: #8a81cc;
     height: 50vh;
     width: 100vw;
-    gap: 15px;
+    gap: 5%;
 
 }
 #token1{
     display: flex; 
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #d2faff;
+    flex-direction: column;
+    background-color: #c5c5ff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
@@ -208,23 +208,57 @@ width: 100vw;
     height: fit-content;
     width: fit-content;
     gap: 15px;
-    background-color: #d2faff;
+    background-color: #c5c5ff;
+}
+#trait1img{
+    display: flex;
+    width: auto;
+    height: 20vh;
+    align-self: center;
 }
 #trait2img{
-    height: auto;
-    width: 10%;
+    display: flex;
+    width: auto;
+    height: 20vh;
+    align-self: center;
 }
 #token3{
     display: flex; 
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
     height: fit-content;
     width: fit-content;
     gap: 15px;
-    background-color: #d2faff;
+    background-color: #c5c5ff;
+}
+#trait3img{
+    display: flex;
+    width: auto;
+    height: 20vh;
+    align-self: center;
+}
+#token4{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    padding: 1%;
+    height: fit-content;
+    width: fit-content;
+    gap: 15px;
+    background-color: #c5c5ff;
+}
+#trait4img{
+    display: flex;
+    width: auto;
+    height: 20vh;
+    align-self: center;
 }
 #roadmap{
     display: flex;
