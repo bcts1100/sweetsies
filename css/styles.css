@@ -505,6 +505,27 @@ body{
     background-color: #8a81cc;
 }
 
-
-
+ /* For mobile phones: */
+@media screen and (max-width: 768px) {
+    [class*="body"]{
+    width: 100%;
+    position:fixed;
+}
+#navbar{
+   position: fixed;
+    width: 100vw;
+}
+[class*="tokenomics"]{
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+}
+[class*="roadmap"]{
+    width: 100vw;
+}
+[class*="roadmap img"]{
+    width: 100vw;
+}
+  }
 
