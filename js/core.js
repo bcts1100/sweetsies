@@ -1,4 +1,4 @@
-let section1 = document.getElementById("section1");
+let section1 = document.getElementById(".section1");
 let navbar = document.getElementById("navbar");
 
 let navPos = navbar.getBoundingClientRect().top;

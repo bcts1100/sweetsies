@@ -12,10 +12,22 @@
     font-style: normal;
 
 }
-.navbar{
+#navbar{
     width: 100vw;
-    position: fixed;
+    position: relative;
 }
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbarcollapse{
+    height: 50px;
+    
+}
+.navbarOffsetMargin {
+        padding-top: 45px;
+      }
 .topnav img{
     display: flex;
     padding-right: 10vw;
@@ -305,17 +317,16 @@ width: 100vw;
 
 .team{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     width: 100vw;
     padding: 50px;
-   
     background-color: #fa9fb5;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
-    gap: 15px;
-    padding: 15px;
+    gap: 10vw;
+    font-family: "dynapuffregular";
 }
 #meet{
     display: flex;
