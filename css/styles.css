@@ -117,8 +117,12 @@ width: 100vw;
 #abouttop{
     display: flex;
     width: 100vw;
-   
     
+}
+#abouttop{
+    display: flex;
+    width: 100vw;
+    margin-top: -4%;   
 }
 #aboutustext{
     display: flex;
@@ -161,6 +165,13 @@ width: 100vw;
     background-color: #fa9fb5;
     
 }
+.spacer3{
+    display: flex;
+    
+    height: 30vh;
+    background-color: #8a81cc;
+    width: 100vw;
+}
 .tokenomics{
     display: flex;
     justify-content: center;
@@ -168,8 +179,8 @@ width: 100vw;
     padding: 25px;
     flex-direction: row;
     font-size: 32px;
-    background-color: #fa9fb5;
-    height: 200px;
+    background-color: #8a81cc;
+    height: 50vh;
     width: 100vw;
     gap: 15px;
 
@@ -182,17 +193,26 @@ width: 100vw;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
+    height: fit-content;
+    width: fit-content;
     gap: 15px;
 }
 #token2{
     display: flex; 
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
+    height: fit-content;
+    width: fit-content;
     gap: 15px;
     background-color: #d2faff;
+}
+#trait2img{
+    height: auto;
+    width: 10%;
 }
 #token3{
     display: flex; 
@@ -201,6 +221,8 @@ width: 100vw;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
+    height: fit-content;
+    width: fit-content;
     gap: 15px;
     background-color: #d2faff;
 }
@@ -259,6 +281,11 @@ width: 100vw;
     border-radius: 15px;
     gap: 15px;
     padding: 15px;
+}
+#meet{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
 }
 #meet p{
     display: flex;
