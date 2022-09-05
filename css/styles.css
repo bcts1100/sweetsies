@@ -521,8 +521,13 @@ body{
 .topnav{
     width: 100vw;
     height: auto;
+    border-style: none;
+    border-radius: 0px;
     padding: 0%;
     gap: 5px;
+}
+.topnav img{
+    padding-right: 1vw;
 }
 .nav1{
     display: flex; 
