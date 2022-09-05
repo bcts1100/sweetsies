@@ -466,7 +466,6 @@ width: 100vw;
 }
 #team5{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #d2faff;
@@ -507,25 +506,132 @@ body{
 
  /* For mobile phones: */
 @media screen and (max-width: 768px) {
-    [class*="body"]{
-    width: 100%;
+.body{
+    width: 100vw;
     position:fixed;
 }
-#navbar{
-   position: fixed;
+#header{
     width: 100vw;
+    height: auto;
 }
-[class*="tokenomics"]{
+#navbar{
+    width: 100vw;
+    height: auto;
+}
+.topnav{
+    width: 100vw;
+    height: auto;
+    padding: 0%;
+    gap: 5px;
+}
+.nav1{
+    display: flex; 
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    border-style: none;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 18px;
+
+}
+.active{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 18px;
+
+}
+.nav2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 18px;
+
+}
+.nav3{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 18px;
+
+}
+.section2{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-[class*="roadmap"]{
+.about{
+    width: 100vw;
+    padding: 0%;
+}
+#abouttop{
+    width: 100vw;
+    height: auto;
+}
+
+.tokenomics{
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    flex-direction: column;
+    padding: 0%;
+    
+}
+#token1{
+    width: 90vw;
+}
+#token2{
+    width: 90vw;
+}
+#token3{
+    width: 90vw;
+}
+#token4{
+    width: 90vw;
+}
+.roadmap{
+    height: auto;
     width: 100vw;
 }
-[class*="roadmap img"]{
+#roadmap img{
+    height: auto;
+    width: 100%;
+}
+.team{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
+    border-radius: 0%;
+    padding: 0PX;
+}
+#team1{
+    display: flex;
+    width: 80%;  
+}
+#team2{
+    display: flex;
+    width: 80%;  
+}
+#team3{
+    display: flex;
+    width: 80%;  
+}
+#team4{
+    display: flex;
+    width: 80%;  
+}
+#team5{
+    display: flex;
+    width: 80%;  
 }
   }
 
