@@ -12,6 +12,9 @@
     font-style: normal;
 
 }
+#header{
+        z-index: 999;       
+}
 #navbar{
     width: 100vw;
     position: relative;
@@ -162,6 +165,74 @@ width: 100vw;
     height: 50%;
     width: 50%;
 }
+#aboutbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 3vh;
+}
+#me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 15px;
+
+    
+}
+.buttonarrow{
+    margin-right: 14px;
+}
+.buttonarrow img{
+    height: 56px;
+    width: auto;
+}
+#staking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 15px;
+
+    
+}
+.buttonarrowtwo{
+    margin-right: 14px;
+}
+.buttonarrowtwo img{
+    height: 56px;
+    width: auto;
+}
+.myButton {
+    display: flex;
+    width: fit-content;
+    color: rgb(95, 0, 175); 
+    font-size: 23px; 
+    line-height: 23px; 
+    padding: 12px;
+    border-radius: 30px; 
+    font-family: Georgia, serif;
+     font-weight: normal; 
+     text-decoration: none; 
+     font-style: normal;
+      font-variant: normal; 
+      text-transform: none; 
+     background-color: #cfb5f4;
+      box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+      border: 2px solid rgb(28, 110, 164); 
+     
+    }
+.myButton:hover {
+    background: rgba(95, 0, 175, 0.8); 
+color: #cfb5f4;}
+.myButton:active {
+    background: #8A81CC; }
 .spacer{
     display: flex;
     
@@ -284,6 +355,7 @@ width: 100vw;
     justify-content: center;
     flex-direction: row;
     background-color: #e2b876;
+    z-index: -1;
 }
 #roadmap img{
     display: flex;
@@ -292,6 +364,8 @@ width: 100vw;
     width: auto;
     filter: blur(3px);
   -webkit-filter: blur(8px);
+  z-index: -1;
+ 
 	
 }
 .roadmapbtn {
@@ -576,6 +650,7 @@ body{
 }
 .about{
     width: 100vw;
+    height: 70vh;
     padding: 0%;
 }
 #abouttop{
