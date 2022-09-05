@@ -33,7 +33,7 @@
       }
 .topnav img{
     display: flex;
-    padding-right: 10vw;
+    padding-right: 1vw;
     float: left;
     gap: 55px;
     height: 6vh;
@@ -397,8 +397,6 @@ color: #cfb5f4;}
     width: 100vw;
     padding: 50px;
     background-color: #fa9fb5;
-    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
-    border-radius: 15px;
     gap: 10vw;
     font-family: "dynapuffregular";
 }
@@ -528,7 +526,7 @@ color: #cfb5f4;}
     padding-right: 2%;
     
 }
-#team4text{
+#team4text{  
     display: flex;
     font-size: 24px;
     justify-content: center;
