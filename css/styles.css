@@ -362,9 +362,7 @@ color: #cfb5f4;}
     justify-content: center;
     height: 60vh;
     width: auto;
-    filter: blur(3px);
-  -webkit-filter: blur(8px);
-  z-index: -1;
+    
  
 	
 }
@@ -575,26 +573,7 @@ body{
     width: 100vw;
     background-color: #8a81cc;
 }
-.roadmap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-}
-#roadmapimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-    margin-left: 10vw;
-    margin-top: 25px;
-}
-#roadmapimg img{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 90vw;
-}
+
 
  /* For mobile phones: */
 @media screen and (max-width: 768px) {
