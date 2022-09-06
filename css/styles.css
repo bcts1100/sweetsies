@@ -584,6 +584,15 @@ body{
 #roadmapimg{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-left: 12vw;
+}
+#roadmapimg img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
 }
 
  /* For mobile phones: */
