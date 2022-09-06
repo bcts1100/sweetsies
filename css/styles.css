@@ -586,7 +586,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 90vw;
-    margin-left: 12vw;
+    margin-left: 10vw;
+    margin-top: 25px;
 }
 #roadmapimg img{
     display: flex;
