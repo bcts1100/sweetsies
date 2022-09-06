@@ -78,16 +78,17 @@ background-color: #cfb5f4;
 padding: 10px;
 
 }
-#roadmaping img{
-    display: flex;
-    justify-content: center;
-}
 .roadmap{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90vw;
 }
+#roadmapimg{
+    display: flex;
+    justify-content: center;
+}
+
 .footer{
     height: 50vh;
     width: 100vw;

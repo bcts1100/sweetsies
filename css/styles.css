@@ -575,6 +575,16 @@ body{
     width: 100vw;
     background-color: #8a81cc;
 }
+.roadmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+#roadmapimg{
+    display: flex;
+    justify-content: center;
+}
 
  /* For mobile phones: */
 @media screen and (max-width: 768px) {
