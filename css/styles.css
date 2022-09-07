@@ -3,7 +3,7 @@
      padding: 0;
     }
 
-
+ /* fonts */
 @font-face {
     font-family: 'dynapuffregular';
     src: url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff2'),
@@ -12,9 +12,19 @@
     font-style: normal;
 
 }
+ /* header */
+a:hover {
+    background-color: rgba(95, 0, 175, 0.8);
+    color: #cfb5f4;
+  }
+i:hover {
+    background-color: rgba(95, 0, 175, 0.8);
+    color: #cfb5f4;
+  }
 #header{
         z-index: 999;       
 }
+ /* navbar */
 #navbar{
     width: 100vw;
     position: relative;
@@ -33,20 +43,21 @@
       }
 .topnav img{
     display: flex;
-    padding-right: 1vw;
     float: left;
     gap: 55px;
     height: 6vh;
     width: auto;
 }
+
+
 .topnav{
     display: flex;
     justify-content: center;
     position: relative;
     background-color: #cfb5f4;
-    border: #cfb5f4;
-    border-style: outset;
-    border-radius: 20px;
+    box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+    border: 2px solid rgb(28, 110, 164); 
+    border-radius: 10px;
     width: fit-content;
     margin: auto;
     padding: .5vh;
@@ -54,43 +65,76 @@
     gap: 15px;
     
 }
+.fa-twitter{
+    display: flex;
+    color: rgba(95, 0, 175, 0.8);
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.fa-discord{
+    display: flex;
+    color: rgba(95, 0, 175, 0.8);
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.fa-instagram{
+    display: flex;
+    color: rgba(95, 0, 175, 0.8);
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+ a:-webkit-any-link {
+    text-decoration: none;
+} 
+.navspacer{
+    width: 20vw;
+}
+.home{
+    display: flex; 
+    align-items: center;
+    background-color: #cfb5f4;
+    padding: 10px;
+    color: rgba(95, 0, 175, 0.8);
+
+}
 .nav1{
     display: flex; 
-    border-style: inset;
-    border-color: #d2faff;
-    border-radius: 20px;
+    align-items: center;
     background-color: #cfb5f4;
     padding: 10px;
 
 }
 .active{
     display: flex; 
-    border-style: inset;
-    border-color: #d2faff;
-    border-radius: 20px;
+    align-items: center;
     background-color: #cfb5f4;
     padding: 10px;
 
 }
 .nav2{
     display: flex; 
-    border-style: inset;
-    border-color: #d2faff;
-    border-radius: 20px;
+    align-items: center;
     background-color: #cfb5f4;
     padding: 10px;
 
 }
 .nav3{
     display: flex; 
-    border-style: inset;
-    border-color: #d2faff;
-    border-radius: 20px;
+    align-items: center;
     background-color: #cfb5f4;
     padding: 10px;
 
 }
-
+ /* section1 */
 .section1 { 
 display: flex;
 justify-content: center;
@@ -112,6 +156,7 @@ width: 100vw;
     font-family: "dynapuffregular";
     width: 100vw;
 }
+ /* about */
 .about{
     display: flex;  
     flex-basis: auto;
@@ -345,15 +390,14 @@ color: #cfb5f4;}
 }
 #roadmap{
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    align-items: center;
     height: 80vh;
     width: 100vw;
     font-size: 32px;
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: center;
-    flex-direction: row;
     background-color: #e2b876;
     z-index: -1;
 }
@@ -368,17 +412,29 @@ color: #cfb5f4;}
 }
 .roadmapbtn {
     display: flex;
-   justify-content: center;
-   margin: auto;
-    background-color: rgb(139, 193, 255);
-    color: white;
-    font-size: 32px;
-    padding: 24px 48px;
-    border: none;
-    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(95, 0, 175); 
+    font-size: 23px; 
+    line-height: 23px; 
+    padding: 12px;
+    border-radius: 10px; 
+    font-family: Georgia, serif;
+     font-weight: normal; 
+     text-decoration: none; 
+     font-style: normal;
+      font-variant: normal; 
+      text-transform: none; 
+     background-color: #cfb5f4;
+      box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+      
 }
 .roadmapbtn:hover {
-    background-color: black;
+    background: rgba(95, 0, 175, 0.8); 
+    color: #cfb5f4;
   }
 #roadmap p{
     display: flex;
@@ -394,6 +450,7 @@ color: #cfb5f4;}
     flex-wrap: wrap;
     width: 100vw;
     padding: 50px;
+    padding-bottom: 15vh;
     background-color: #fa9fb5;
     gap: 10vw;
     font-family: "dynapuffregular";
@@ -573,6 +630,14 @@ body{
     width: 100vw;
     background-color: #8a81cc;
 }
+.roadmappageimg img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+    height: auto;
+}
 
 
  /* For mobile phones: */
@@ -585,9 +650,10 @@ body{
     width: 100vw;
     height: auto;
 }
-#navbar{
+#roadmapnavbar{
     width: 100vw;
     height: auto;
+    
 }
 .topnav{
     width: 100vw;
@@ -596,9 +662,32 @@ body{
     border-radius: 0px;
     padding: 0%;
     gap: 5px;
+    justify-content: flex-start;
 }
 .topnav img{
     padding-right: 1vw;
+}
+#navtwit{
+    display: none;
+}
+.melinkheader{
+    display: none;
+}
+#navdis{
+    display: none;
+}
+#navins{
+    display: none;
+}
+.navspacer{
+    display: none;
+}
+.melink{
+    display: none;
+}
+.logotop{
+   justify-content: flex-start;
+   margin-right: 5vw;
 }
 .nav1{
     display: flex; 
@@ -610,7 +699,7 @@ body{
     font-size: 18px;
 
 }
-.active{
+.home{
     display: flex; 
     justify-content: center;
     align-items: center;
