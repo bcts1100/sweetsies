@@ -13,14 +13,15 @@
 
 }
  /* header */
-a:hover {
+ .topnav i:hover {
     background-color: rgba(95, 0, 175, 0.8);
     color: #cfb5f4;
   }
-i:hover {
+  .topnav a:hover{
     background-color: rgba(95, 0, 175, 0.8);
     color: #cfb5f4;
   }
+
 #header{
         z-index: 999;       
 }
@@ -626,10 +627,51 @@ body{
     
 }
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 50vh;
     width: 100vw;
     background-color: #8a81cc;
 }
+.footerlogo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: flex-start;
+    width: auto;
+    height: 25vh;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 30px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+
+}
+
+
 .roadmappageimg img{
     display: flex;
     align-items: center;
@@ -638,11 +680,40 @@ body{
     width: 80vw;
     height: auto;
 }
-
+.footer-bottom{
+    background: #8a81cc;
+    border: #44bae8;
+    border-style: groove;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
 
  /* For mobile phones: */
 @media screen and (max-width: 768px) {
-.body{
+        .footer-menu ul{
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+    .body{
     width: 100vw;
     position:fixed;
 }
