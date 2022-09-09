@@ -14,12 +14,10 @@
 }
  /* header */
  .topnav i:hover {
-    background-color: rgba(95, 0, 175, 0.8);
-    color: #cfb5f4;
+    color: turquoise;
   }
   .topnav a:hover{
-    background-color: rgba(95, 0, 175, 0.8);
-    color: #cfb5f4;
+    color: turquoise;
   }
 
 #header{
@@ -318,7 +316,7 @@ color: #cfb5f4;}
     display: flex; 
     align-items: center;
     flex-direction: column;
-    background-color: #c5c5ff;
+    background-color: #d2faff;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     padding: 1%;
@@ -362,7 +360,7 @@ color: #cfb5f4;}
     height: fit-content;
     width: fit-content;
     gap: 15px;
-    background-color: #c5c5ff;
+    background-color: #cfb5f4;
 }
 #trait3img{
     display: flex;
@@ -381,7 +379,7 @@ color: #cfb5f4;}
     height: fit-content;
     width: fit-content;
     gap: 15px;
-    background-color: #c5c5ff;
+    background-color: #fa9fb5;
 }
 #trait4img{
     display: flex;
@@ -407,6 +405,7 @@ color: #cfb5f4;}
     justify-content: center;
     height: 60vh;
     width: auto;
+    margin-bottom: 5vh;
     
  
 	
@@ -473,7 +472,7 @@ color: #cfb5f4;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #d2faff;
+    background-color: #8a81cc;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     width: 20vw;
@@ -492,20 +491,27 @@ color: #cfb5f4;}
 }
 #team1text{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     padding-right: 1%;
+   
     
 }
 #teamul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    word-wrap: none;
    justify-content: center;
    align-items: center;
    padding: 5%;
+  
+  
+    
+}
+#teamul li{
+    margin: 5px;
+    white-space: nowrap;
     
 }
 #team2{
@@ -513,7 +519,7 @@ color: #cfb5f4;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #d2faff;
+    background-color: #cfb5f4;
     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
     width: 20vw;
@@ -528,10 +534,11 @@ color: #cfb5f4;}
 }
 #team2text{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     padding-right: 1%;
+    
 }
 #team2 img{
     border-radius: 50%;
@@ -556,7 +563,7 @@ color: #cfb5f4;}
 }
 #team3text{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     padding-right: 1%;
@@ -584,7 +591,7 @@ color: #cfb5f4;}
 }
 #team4text{  
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     padding-right: 1%;
@@ -611,7 +618,7 @@ color: #cfb5f4;}
 }
 #team5text{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     padding-right: 1%;
@@ -624,6 +631,7 @@ body{
     width: 100vw;
     margin: 0;
     overflow: auto;
+    font-family: "dynapuffregular";
     
 }
 .footer{
@@ -682,7 +690,7 @@ body{
 }
 .footer-bottom{
     background: #8a81cc;
-    border: #44bae8;
+    border: #cfb5f4;
     border-style: groove;
     width: 100vw;
     padding: 20px;
@@ -717,6 +725,13 @@ body{
     width: 100vw;
     position:fixed;
 }
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 10vh;
+}
 #header{
     width: 100vw;
     height: auto;
@@ -733,6 +748,7 @@ body{
     border-radius: 0px;
     padding: 0%;
     gap: 5px;
+    margin: 0;
     justify-content: flex-start;
 }
 .topnav img{
@@ -804,6 +820,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 17vw;
 }
 .about{
     width: 100vw;
@@ -849,6 +866,7 @@ body{
     width: 100vw;
     border-radius: 0%;
     padding: 0PX;
+    padding-bottom: 5vh;
 }
 #team1{
     display: flex;
