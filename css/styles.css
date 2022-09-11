@@ -299,6 +299,22 @@ color: #cfb5f4;}
     background-color: #8a81cc;
     width: 100vw;
 }
+#raritytitle{
+    display: flex;
+    background-color: #8A81CC;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+#raritytext{
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    background-color: #8A81CC;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
 .tokenomics{
     display: flex;
     justify-content: center;
