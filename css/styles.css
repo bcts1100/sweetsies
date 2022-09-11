@@ -328,6 +328,21 @@ color: #cfb5f4;}
     gap: 5%;
 
 }
+#bottom{
+    color: #8A81CC;
+}
+#commontop{
+    color: #8A81CC;
+}
+#raretop{
+    color: #fa9fb5;
+}
+#legendarytop{
+    color: aquamarine;
+}
+#epictop{
+    color:#44bae8
+}
 #token1{
     display: flex; 
     align-items: center;
