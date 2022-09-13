@@ -301,10 +301,14 @@ color: #cfb5f4;}
 }
 #raritytitle{
     display: flex;
-    background-color: #8A81CC;
-    font-size: 32px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: #cfb5f4;
+    box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+    border: 2px solid rgb(28, 110, 164); 
+    border-radius: 10px;
+    width: 60vw;
+    padding: .5%;
 }
 #raritytext{
     display: flex;
@@ -417,6 +421,83 @@ color: #cfb5f4;}
     width: auto;
     height: 20vh;
     align-self: center;
+}
+.traits{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 32px;
+    background-color: #8a81cc;
+    height: 60vh;
+    width: 100vw;
+    gap: 5%;
+}
+#traittexttop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8A81CC;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+#traittitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfb5f4;
+    box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+    border: 2px solid rgb(28, 110, 164); 
+    border-radius: 10px;
+    width: 60vw;
+    padding: .5%;
+}
+.traitbox{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+
+}
+#traitOne{
+    background-color: #95d6e5;
+    border-radius: 10px;
+}
+#traitTwo{
+    background-color: #df81dc;
+    border-radius: 10px;
+}
+#traitThree{
+    background-color: #cfb5f4;
+    border-radius: 10px;
+}
+#traitFour{
+    background-color: #fa9fb5;
+    border-radius: 10px;
+}
+#traitFive{
+    background-color: #ffabff;
+    border-radius: 10px;
+}
+#traitSix{
+    background-color: #aee5d6;
+    border-radius: 10px;
+}
+#traitSeven{
+    background-color: #7affe7;
+    border-radius: 10px;
+}
+#traitEight{
+    background-color: #95d6e5;
+    border-radius: 10px;
 }
 #roadmap{
     display: flex;
